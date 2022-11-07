@@ -13,4 +13,5 @@ Navigate to the repository
 Now, Navigate to the "drivers" folder of the repository(Its the place where selenium grid jars are placed)
 Run this command: java -jar selenium-server-4.6.0.jar hub (To start the hub)
 Now, Run this command: java -Dwebdriver.chrome.driver=“driverpath” -jar selenium-server-4.6.0.jar node  hub (To start the node and connect with the hub on same machine)
-
+Open Project in Eclipse IDE
+Start Running Project
