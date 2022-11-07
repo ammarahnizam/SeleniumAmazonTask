@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Search">
+ 
+<test name="Amazon Search Test Automation using Selenium +Page Factory">
+<classes>
+<class name="tests.TestBase" />
+<class name="tests.SearchTestSpec" />
+</classes>
+</test>
+</suite> <!-- Suite -->

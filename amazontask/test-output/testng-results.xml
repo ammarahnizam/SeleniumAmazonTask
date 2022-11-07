@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[About This Item Label is Present]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-07T05:41:51 GMT" name="Default suite" finished-at="2022-11-07T05:42:35 GMT" duration-ms="43393">
+    <groups>
+    </groups>
+    <test started-at="2022-11-07T05:41:51 GMT" name="Default test" finished-at="2022-11-07T05:42:35 GMT" duration-ms="43393">
+      <class name="Tests.SearchTestSpec">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.SearchTestSpec@5bd03f44]" started-at="2022-11-07T05:41:51 GMT" name="initialize" finished-at="2022-11-07T05:41:58 GMT" duration-ms="6670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="searchOnAmazon()[pri:0, instance:Tests.SearchTestSpec@5bd03f44]" started-at="2022-11-07T05:41:58 GMT" name="searchOnAmazon" finished-at="2022-11-07T05:42:34 GMT" duration-ms="36492" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[About This Item Label is Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchOnAmazon -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.SearchTestSpec@5bd03f44]" started-at="2022-11-07T05:42:34 GMT" name="TeardownTest" finished-at="2022-11-07T05:42:35 GMT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.SearchTestSpec -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
