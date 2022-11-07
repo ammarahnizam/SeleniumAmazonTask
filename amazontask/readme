@@ -1,4 +1,16 @@
-Pre-Requisites:
-========================
+Pre-Requisites(if not exists):
+============================
+Download and Install Java
+Configure environmental variables
+Download and Install IDE either Eclipse/IntelliJ
 
+
+
+Steps:
+======================
+Enter command git clone "repository name" in your terminal
+Navigate to the repository
+Now, Navigate to the "drivers" folder of the repository(Its the place where selenium grid jars are placed)
+Run this command: java -jar selenium-server-4.6.0.jar hub (To start the hub)
+Now, Run this command: java -Dwebdriver.chrome.driver=“driverpath” -jar selenium-server-4.6.0.jar node  hub (To start the node and connect with the hub on same machine)
 
